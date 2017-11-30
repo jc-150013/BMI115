@@ -16,7 +16,7 @@
             <Button Text="BMI計算"
                 HorizontalOptions="Center"
                     x:Name="BMI_Button"
-                    Clicked="Button_Clicked"/>
+                    Clicked="BMI_Button_Click"/>
             
         </StackLayout>
     </ContentPage.Content>
