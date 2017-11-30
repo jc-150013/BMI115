@@ -17,7 +17,11 @@ namespace BMI01
         {
             double dHeight = double.Parse(height.Text);
 
-            DisplayAlert("BMI",dHeight+":太りすぎ", "OK");
+            double dWeight = 50.0;
+
+            double BMI = dWeight / dHeight / dHeight;
+
+            DisplayAlert("BMI",dBMI+":太りすぎ", "OK");
         }
     }
 }
