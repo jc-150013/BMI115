@@ -19,7 +19,7 @@ namespace BMI01
 
             double dWeight = 50.0;
 
-            ouble dBMI = double.Parse(weght.Text);
+            double dBMI = double.Parse(weght.Text);
 
             double dBMI = 50.0;
 
