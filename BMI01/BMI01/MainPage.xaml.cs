@@ -22,6 +22,14 @@ namespace BMI01
             double BMI = dWeight / dHeight / dHeight;
 
             DisplayAlert("BMI",dBMI+":太りすぎ", "OK");
+
+            if (dBMI < 185)
+            {
+                DisplayAlert("BMI", dBMI + ":低体重(やせ型)", "OK");
+            } else if(dBMI < 25.0)
+                { 
+                DisplayAlert("BMI", dBMI + ":普通体重", "OK");
+            }       
         }
     }
 }

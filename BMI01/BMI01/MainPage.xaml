@@ -13,6 +13,13 @@
                 HorizontalOptions="Center" 
                    x:Name="height"/>
 
+            <Label Text="現在の体重を入力してください"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text="150"
+                HorizontalOptions="Center" 
+                   x:Name="weight"/>
+
             <Button Text="BMI計算"
                 HorizontalOptions="Center"
                     x:Name="BMI_Button"
