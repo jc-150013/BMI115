@@ -19,15 +19,16 @@ namespace BMI01
 
             double dWeight = 50.0;
 
-            double dBMI = double.Parse(weght.Text);
-
-            double dBMI = 50.0;
-
             double BMI = dWeight / dHeight / dHeight;
 
             DisplayAlert("BMI",dBMI+":太りすぎ", "OK");
 
 
+            double dBMI = double.Parse(weight.Text);
+
+            double dBMI = 50.0;
+
+            double BMI = dWeight / dHeight / dHeight;
 
             if (dBMI < 185)
             {
